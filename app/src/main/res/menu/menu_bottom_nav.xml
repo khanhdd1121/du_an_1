@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_KhachHang"
+        android:icon="@drawable/khachhang"
+        android:title="Khác hàng">
+    </item>
+    <item
+        android:id="@+id/nav_nhanvien"
+        android:icon="@drawable/nhanvien"
+        android:title="Nhân viên">
+    </item>
+    <item
+        android:id="@+id/nav_hang"
+        android:icon="@drawable/hang"
+        android:title="Hãng">
+    </item>
+    <item
+        android:id="@+id/nav_xe"
+        android:icon="@drawable/xe"
+        android:title="Xe">
+    </item>
+    <item
+        android:id="@+id/nav_Quanlyhoadon"
+        android:icon="@drawable/ic_hoadon"
+        android:title="Hóa đơn">
+    </item>
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00BFFF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_linearlayout"
+        android:layout_margin="10dp"
+        android:layout_height="160dp">
+        <LinearLayout
+            android:layout_width="340dp"
+            android:paddingTop="15dp"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_maHD"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold|normal"
+                android:text="Mã Hóa đơn"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Nhân viên"
+                android:paddingLeft="15dp"
+                android:textStyle="bold|normal"
+                android:id="@+id/tv_nhanvien"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Khách hàng"
+                android:paddingLeft="15dp"
+                android:textStyle="bold|normal"
+                android:id="@+id/tv_khachhang"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:text="Tên Xe"-->
+<!--                android:paddingLeft="15dp"-->
+<!--                android:id="@+id/tv_xeHD"-->
+<!--                android:layout_height="wrap_content">-->
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:text="Số lượng"-->
+<!--                android:paddingLeft="15dp"-->
+<!--                android:id="@+id/tv_soLuongHD"-->
+<!--                android:layout_height="wrap_content">-->
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:text="Đơn giá"-->
+<!--                android:id="@+id/tv_dongiaHD"-->
+<!--                android:paddingLeft="15dp"-->
+<!--                android:layout_height="wrap_content">-->
+<!--            </TextView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Ngày"
+                android:textStyle="bold|normal"
+                android:id="@+id/_tv_ngay"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Phân loại"
+                android:textStyle="bold|normal"
+                android:id="@+id/_tv_phanloai"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Hình thức thành toán"
+                android:textStyle="bold|normal"
+                android:id="@+id/_tv_hinhthucTT"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/ic_deltet"
+                android:textStyle="normal|bold"
+                android:id="@+id/img_xoaHD"
+                android:backgroundTint="#00BFFF"
+                android:text="Xóa"
+                android:layout_height="50dp">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

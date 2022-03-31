@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_kh"></ImageView>
+            <TextView
+                android:layout_width="200dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+                android:text="Hóa Đơn"
+                android:textSize="35dp"
+                android:textStyle="bold|normal"></TextView>
+        </LinearLayout>
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/ed_maHD"
+            android:hint="Mã hóa đơn"
+            android:background="@drawable/custom_editext"
+            android:layout_height="0dp">
+        </EditText>
+        <Spinner
+            android:layout_width="270dp"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:id="@+id/sp_maNV"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+        </Spinner>
+        <Spinner
+            android:drawableStart="@drawable/ic_date"
+            android:layout_width="270dp"
+            android:id="@+id/sp_maKH"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+        </Spinner>
+        <EditText
+            android:drawableStart="@drawable/ic_date"
+            android:layout_width="270dp"
+            android:id="@+id/sp_maXe"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+        </EditText>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="SoLuong"
+            android:background="@drawable/custom_editext"
+            android:id="@+id/ed_soluongHD">
+        </EditText>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Đơn giá"
+            android:background="@drawable/custom_editext"
+            android:id="@+id/ed_donGiaHD">
+        </EditText>
+        <EditText
+            android:layout_width="270dp"
+            android:id="@+id/ed_ngay"
+            android:drawableStart="@drawable/ic_date"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Ngày "
+            android:layout_height="50dp">
+        </EditText>
+        <EditText
+
+            android:layout_width="270dp"
+            android:id="@+id/ed_phanloai"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/ic_phanloai"
+            android:layout_marginTop="10dp"
+            android:hint="Phân Loại"
+            android:layout_height="50dp">
+        </EditText>
+        <EditText
+
+            android:layout_width="270dp"
+            android:id="@+id/ed_hinhthucTT"
+            android:drawableStart="@drawable/ic_hinhtuctt"
+            android:hint="Hình thức thanh toán"
+            android:background="@drawable/custom_editext"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#1E90FF"
+            android:text="Thêm"
+            android:id="@+id/btn_themHD">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:backgroundTint="#1E90FF"
+            android:textStyle="normal|bold"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btn_huyHD">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
